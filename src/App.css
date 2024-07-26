@@ -1,0 +1,215 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.App {
+   
+
+    align-items: center;
+    background-color: #B9DBFE;
+    border-radius: 10px;
+    padding: 25px;
+  }
+  .App h1{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 0 ;
+    background-color: #7FBFFF;
+    text-shadow: 3px 3px 2px #2893ff;
+    border-radius: 5px;
+  }
+  .bor{
+    text-transform: uppercase;
+  }
+  .cont {
+    margin-top: 30px;
+    margin-bottom: 70px;
+  }
+  .left-image {
+    float: left;
+    margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
+    height: 150px;
+    width:243px;
+  }
+  
+  .right-image {
+    float: right;
+    margin-left: 10px; /* Ajusta el margen izquierdo según sea necesario */
+    height: 150px;
+    width:243px;
+  }
+  
+  
+
+
+ /* Pagina 1*/
+
+ 
+
+ .memory-game-container {
+  margin: 50px auto;
+  width: 700px; 
+  height: 600px; 
+  border: 2px solid #000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: rgb(101, 213, 228);
+  border-radius: 15px;
+  position: relative; 
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente estilo de juegos de niños */
+  background: linear-gradient(to right, #003cff, #d665bd); /* Degradado de colores */
+  -webkit-background-clip: text; /* Aplicar el degradado al texto */
+  -webkit-text-fill-color: transparent; /* Hacer transparente el color del texto */
+  -webkit-text-stroke: 1px rgb(128, 113, 113); /* Agregar borde a cada letra */
+}
+
+
+
+.card {
+  border: 2px solid #cecdca;
+  padding: 10px;
+  margin: 20px auto; 
+  width: 80%; 
+}
+
+.special-card {
+  background-color: #f5f2eb; 
+  border-radius: 30px; 
+  width: 50%; 
+  text-align: center; 
+}
+
+.message {
+  font-size: 20px; 
+  font-family: 'Comic Sans MS', cursive, sans-serif; 
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-bottom: 20px; 
+}
+
+.age-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 60px; /* Espacio entre botones */
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombreado */
+}
+
+.age-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px); /* Efecto de levantamiento */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Sombreado más pronunciado */
+}
+.age-button:hover {
+  background-color: #0056b3;
+}
+
+.image-container {
+  width: 80%; 
+  text-align: center; 
+}
+
+.bottom-image {
+  max-width: 100%;
+  max-height: 200px; 
+}
+
+/* Imagenes */
+
+.image-left,
+.image-right {
+  position: absolute;
+  top: 30%; 
+}
+
+.image-left {
+  left: 0;
+}
+
+.image-right {
+  right: 0;
+}
+
+.left-image,
+.right-image {
+  max-width: 150px; 
+  max-height: 150px; 
+}
+
+@keyframes moveImage {
+  0% {
+    transform: translateY(-7px); 
+  }
+  50% {
+    transform: translateY(10px); 
+  }
+  100% {
+    transform: translateY(-7px); 
+  }
+}
+
+.image-left,
+.image-right {
+  position: absolute;
+  top: 30%; 
+  animation: moveImage 3s infinite alternate; 
+}
+
+
+
+/* App.css */
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.images-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.intro-image {
+  width: 200px;
+  height: auto;
+}
+
+.side-image {
+  width: 150px;
+  height: auto;
+}
+
+/* Otros estilos según sea necesario */
+
+
+

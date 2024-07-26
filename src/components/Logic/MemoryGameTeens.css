@@ -1,0 +1,41 @@
+.start-button {
+    background-color: #035863; /* Color de fondo azul */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s; /* Duración de la transición */
+    cursor: pointer;
+    border-radius: 12px;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para resaltar el botón */
+}
+
+.start-button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+    transform: scale(1.05); /* Escala el botón ligeramente al pasar el mouse */
+}
+
+.start-button:active {
+    transform: scale(0.95); /* Reducción de escala al hacer clic en el botón */
+}
+
+.back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #035863;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
