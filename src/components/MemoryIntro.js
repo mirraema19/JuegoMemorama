@@ -1,7 +1,7 @@
 import React from 'react';
-import bottomImage from '../assents/img/memorama.png'; 
-import leftImage from '../assents/img/niño.png'; 
-import rightImage from '../assents/img/niño12.png'; 
+import bottomImage from '../assents/img/Memorama8.png'; 
+import leftImage from '../assents/img/Memorama4.png'; 
+import rightImage from '../assents/img/Memorama2.png'; 
 
 const MemoryIntro = ({ startGame, startTeensGame }) => { 
   const handleButtonClick = (isTeens) => {

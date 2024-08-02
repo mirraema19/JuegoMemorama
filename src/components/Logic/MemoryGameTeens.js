@@ -4,8 +4,8 @@ import confetti from 'canvas-confetti';
 import Timer from '../Timer';
 import '../Logic/MemoryGameTeens.css'
 
-import leftImage from '../../assents/img/niño admiracion.png'; 
-import rightImage from '../../assents/img/feyooo.png'; 
+import leftImage from '../../assents/img/Memorama6.png'; 
+import rightImage from '../../assents/img/Memorama9.png'; 
 
 import gon from '../../assents/img/DESTRUIR COSAS.png';
 import killua from '../../assents/img/MORDER.png';

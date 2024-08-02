@@ -5,8 +5,8 @@ import Timer from '../Timer';
 
 import '../Logic/MemoryGameTeens.css';
 
-import leftImage from '../../assents/img/Niño interrogacion.png';
-import rightImage from '../../assents/img/Niño con foco.png';
+import leftImage from '../../assents/img/Memorama5.png';
+import rightImage from '../../assents/img/Memorama10.png';
 
 import gon from '../../assents/img/DESTRUIR COSAS.png';
 import killua from '../../assents/img/MORDER.png';
