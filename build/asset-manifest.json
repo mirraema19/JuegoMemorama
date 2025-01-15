@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a51402cf.css",
+    "main.js": "/static/js/main.474e9032.js",
+    "static/media/Memorama9.png": "/static/media/Memorama9.2a56abc3cd70a122fe7b.png",
+    "static/media/Memorama8.png": "/static/media/Memorama8.448b651f7ba0d878026a.png",
+    "static/media/Memorama5.png": "/static/media/Memorama5.0e1dc645ac3af324037c.png",
+    "static/media/Memorama10.png": "/static/media/Memorama10.c8cced317b60119c653f.png",
+    "static/media/Memorama4.png": "/static/media/Memorama4.032de162e9006193402e.png",
+    "static/media/Memorama6.png": "/static/media/Memorama6.cf6825fc4a4edd460775.png",
+    "static/media/Memorama2.png": "/static/media/Memorama2.082a11e4b324ee670bad.png",
+    "static/media/Signo de interrogracion.png": "/static/media/Signo de interrogracion.30fee6348487f203b081.png",
+    "static/media/icono_interrogacion.png": "/static/media/icono_interrogacion.fb411d5c9ac939236bdf.png",
+    "static/media/VIOLENCIA FISICA.png": "/static/media/VIOLENCIA FISICA.51e6047759662dbaea6c.png",
+    "static/media/AMENAZAS.png": "/static/media/AMENAZAS.77d063df2017618405b0.png",
+    "static/media/CYBERBULLYING.png": "/static/media/CYBERBULLYING.3630cf0a2dd5918b6f34.png",
+    "static/media/DESTRUIR COSAS.png": "/static/media/DESTRUIR COSAS.96265f34f1badcf04072.png",
+    "static/media/IGNORAR.png": "/static/media/IGNORAR.d3be2c0deff19a034e96.png",
+    "static/media/Up logos.png": "/static/media/Up logos.7883054e2b841875f030.png",
+    "static/media/SEÑALAMIENTOS.png": "/static/media/SEÑALAMIENTOS.b1756ba3d82c519801da.png",
+    "static/media/MORDER.png": "/static/media/MORDER.a51d2452f429f78d9a2c.png",
+    "static/media/BROMAS HIRIENTES.png": "/static/media/BROMAS HIRIENTES.ccf18b56bd59474f9f81.png",
+    "static/media/logo_fiscalia.png": "/static/media/logo_fiscalia.a7d3d270c924baab324f.png",
+    "static/media/ABUSO.png": "/static/media/ABUSO.9db06f104711d9066a16.png",
+    "static/media/ACOSO.png": "/static/media/ACOSO.32fc0910692635dcfe56.png",
+    "static/media/GOLPEAR.png": "/static/media/GOLPEAR.2ccbda7f993a6f7d76ff.png",
+    "static/media/CONTROL.png": "/static/media/CONTROL.735d98e8771043c78dc9.png",
+    "index.html": "/index.html",
+    "main.a51402cf.css.map": "/static/css/main.a51402cf.css.map",
+    "main.474e9032.js.map": "/static/js/main.474e9032.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a51402cf.css",
+    "static/js/main.474e9032.js"
+  ]
+}
