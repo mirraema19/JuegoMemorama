@@ -57,7 +57,7 @@ const MemoryGame = ({ goBackToMenu }) => {
       }))
     );
     resetSelectedMemoBlock();
-    setTimeLeft(40); // Reset time left on new game
+    setTimeLeft(40); 
   };
 
   const shuffleArray = (a) => {
@@ -158,7 +158,7 @@ const MemoryGame = ({ goBackToMenu }) => {
               <button onClick={startNewGame} className='start-button' variant='text' color='default'>
                 Jugar de nuevo
               </button>
-            </>
+            </> 
           )}
         </div>
       </div>
